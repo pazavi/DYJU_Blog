@@ -17,7 +17,7 @@ const CategoryPost = ({ posts }) => {
   }
 
   return (
-    <div className="container mx-auto px-2 mb-8">
+    <div className="container mx-auto px-4 mb-8">
       <h2 className="text-left text-white mb-4 text-xl ml-2">
         Posts on {sortedPosts[0].node.categories[0].name}:
       </h2>
